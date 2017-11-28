@@ -3,4 +3,29 @@
 		max-width: 100%;
 		flex: none;
 	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu-xs {
+		flex: 0 0 33.333333%;
+  	max-width: 33.333333%;
+		display: inline-block;
+		float: right;
+	}
+
+	.fa-bars {
+		float: right;
+	}
+
+	.logo {
+		flex: 0 0 50%;
+  	max-width: 50%;
+	}
+
+	.spaces {
+		flex: 0 0 8.333333%;
+  	max-width: 8.333333%;
+	}
 }
