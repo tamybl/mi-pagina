@@ -1,7 +1,6 @@
 @media (max-width: 767px) {
 	[class*="col-"] {
-		width: 100%;
+		max-width: 100%;
 		flex: none;
 	}
-
 }
