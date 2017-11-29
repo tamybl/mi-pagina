@@ -43,17 +43,16 @@ body {
 	display: none;
 }
 
+.menu-xs ul, .menu-xs ul li {
+	display: block;
+}
+
 .menu-xs-content {
 	width: 30%;
 	height: auto;
 	background-color: #ccc;
 	position: fixed;
 	top: 30px;
-
-}
-
-.menu-xs ul, .menu-xs ul li {
-	display: block;
 }
 
 .fa-bars {
@@ -112,13 +111,15 @@ body {
 
 .text {
 	width: 100%;
-	height: 180px;
+	height: auto;
 }
 
 .read-more {
 	background-color: #f7f7f7;
 	border-top: 1px solid #d8d8d8;
 	padding: 1em 0.5em 1em;
+	position: relative;
+	bottom: 0px;
 }
 
 .image {
